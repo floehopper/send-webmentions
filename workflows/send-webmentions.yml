@@ -3,6 +3,7 @@ on:
   rss:
     url: http://feeds.jamesmead.org/floehopper-blog
     config:
+      logLevel: debug
       limit: 1
 jobs:
   send_webmentions:
