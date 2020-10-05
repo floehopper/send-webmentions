@@ -16,3 +16,4 @@ jobs:
           url: https://webmention.app/check/
           method: 'POST'
           params: '{ "url": "${{on.rss.outputs.link}}", "token": "${{ secrets.WM_TOKEN }}" }'
+          is_debug: true
